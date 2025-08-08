@@ -1,0 +1,80 @@
+Microsoft Windows [Version 10.0.19045.5608]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\MY_STUFF\web_pages_practice\FullStackWebDev\Next.js>npx create-next-app ninjaList
+Need to install the following packages:
+  create-next-app@15.4.6
+Ok to proceed? (y) y
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'create-next-app@15.4.6',
+npm WARN EBADENGINE   required: { node: '>=18.18.0' },
+npm WARN EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+npm WARN EBADENGINE }
+Could not create a project called "ninjaList" because of npm naming restrictions:
+    * name can no longer contain capital letters
+npm notice
+npm notice New major version of npm available! 9.5.1 -> 11.5.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.5.2
+npm notice Run npm install -g npm@11.5.2 to update!
+npm notice
+
+E:\MY_STUFF\web_pages_practice\FullStackWebDev\Next.js>nvm install 20
+Downloading node.js version 20.19.4 (64-bit)...
+Extracting node and npm...
+Complete
+npm v10.8.2 installed successfully.
+
+
+Installation complete. If you want to use this version, type
+
+nvm use 20.19.4
+
+E:\MY_STUFF\web_pages_practice\FullStackWebDev\Next.js>nvm use 20
+Now using node v20.19.4 (64-bit)
+
+E:\MY_STUFF\web_pages_practice\FullStackWebDev\Next.js>npx create-next-app ninjalist
+√ Would you like to use TypeScript? ... No / Yes
+√ Would you like to use ESLint? ... No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like your code inside a `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+√ Would you like to use Turbopack for `next dev`? ... No / Yes
+√ Would you like to customize the import alias (`@/*` by default)? ... No / Yes
+Creating a new Next.js app in E:\MY_STUFF\web_pages_practice\FullStackWebDev\Next.js\ninjalist.
+
+Using npm.
+
+Initializing project with template: app-tw
+
+
+Installing dependencies:
+- react
+- react-dom
+- next
+
+Installing devDependencies:
+- typescript
+- @types/node
+- @types/react
+- @types/react-dom
+- @tailwindcss/postcss
+- tailwindcss
+- eslint
+- eslint-config-next
+- @eslint/eslintrc
+
+
+added 335 packages, and audited 336 packages in 3m
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Initialized a git repository.
+
+Success! Created ninjalist at E:\MY_STUFF\web_pages_practice\FullStackWebDev\Next.js\ninjalist
+
+
+E:\MY_STUFF\web_pages_practice\FullStackWebDev\Next.js>cd ninjalist
+
+E:\MY_STUFF\web_pages_practice\FullStackWebDev\Next.js\ninjalist>code .
