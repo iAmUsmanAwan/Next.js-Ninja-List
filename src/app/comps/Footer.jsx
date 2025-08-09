@@ -1,8 +1,8 @@
 
 export default function Footer() {
     return <> 
-    <div>
+    <footer>
         Copyright 2025 Ninja List
-    </div>
+    </footer>
     </>;
 }
