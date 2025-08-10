@@ -1,4 +1,11 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+// This sets the title for ONLY the Ninjas page
+export const metadata: Metadata = {
+  title: 'Ninja List | Ninja page',
+  description: 'Learn more about the Ninja List team.',
+};
 
 // This is the ninja page of the application.
 
