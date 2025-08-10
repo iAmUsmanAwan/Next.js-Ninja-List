@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+# Next.js-Ninja-List
+A beginner-friendly Next.js project built to learn the fundamentals of the App Router, dynamic routing, and server-side data fetching. Deployed live on Vercel. Includes a simple Ninja List page with details for each ninja, demonstrating static generation with dynamic routes.
+>>>>>>> 15c225457524846583c93cf6d07b754c6965c707
