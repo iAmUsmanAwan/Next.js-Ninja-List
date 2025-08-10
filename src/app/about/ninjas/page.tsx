@@ -24,12 +24,8 @@ export default async function NinjaPage() {
         <br /><br /><br />
 
         {ninjas.map((ninja: any) => (
-            <Link
-            href={`/ninjas/${ninja.id}`}
-            key={ninja.id}
-            className={styles.single}
-            >
-            <h3>{ninja.name}</h3>
+            <Link href={`/about/ninjas/${ninja.id}`} key={ninja.id} className={styles.single}>
+                <h3>{ninja.name}</h3>
             </Link>
         ))}
 
