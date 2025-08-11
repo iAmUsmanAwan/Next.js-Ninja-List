@@ -4,7 +4,13 @@ import Image from 'next/image';
 export default function Navbar() {
     return <nav> 
     <div className="logo">
-        <Image src="/catLogo.jpg" width={120} height={60} alt="Cat logo" />
+        <Image 
+            src="/catLogo.jpg" 
+            width={120} 
+            height={60} 
+            alt="Cat Logo" 
+        />
+
     </div>
     <Link href="/" >Home page</Link>  <br />
     <Link href="/about">About page</Link>   <br />
